@@ -1,5 +1,7 @@
 import React from 'react';
+import MyAreaChart from '../../components/MyAreaChart/MyAreaChart';
 import MyBarChart from '../../components/MyBarChart/MyBarChart';
+import MyRadarChart from '../../components/MyRadarChart/MyRadarChart';
 import SalaryChart from '../../components/SalaryChart/SalaryChart';
 
 const Dashboard = () => {
@@ -11,6 +13,12 @@ const Dashboard = () => {
                 </div>
                 <div className="col-lg-6 ">
                     <MyBarChart></MyBarChart>
+                </div>
+                <div className="col-lg-6 ">
+                    <MyAreaChart></MyAreaChart>
+                </div>
+                <div className="col-lg-6 ">
+                    <MyRadarChart></MyRadarChart>
                 </div>
             </div>
         </div>
