@@ -1,9 +1,17 @@
 import React from 'react';
+import SalaryChart from '../../components/SalaryChart/SalaryChart';
 
 const Dashboard = () => {
     return (
-        <div>
-            <h2 className='text-center mt-5'>This is dashboard page</h2>
+        <div className='container my-5'>
+            <div className="row">
+                <div className="col-lg-6">
+                    <SalaryChart></SalaryChart>
+                </div>
+                <div className="col-lg-6">
+
+                </div>
+            </div>
         </div>
     );
 };
