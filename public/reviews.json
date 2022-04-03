@@ -3,6 +3,42 @@
         "id": "3101",
         "name": "Gary K. Wagnon",
         "ratings": "4.5",
-        "img": "member-1.png"
+        "img": "member-1.png",
+        "description": "Not gonna lie, super impressed with this laptop. Was considering an HP Spectre or Galaxy Book Pro, but stumbled across this on here of all places. It had everything i was looking for & more than what I even realized.Presentation in box was nice. Like how it is packaged in a dust sleeve & even has a dust sleeve in-between screen & keyboard. Major plus mark for that alone.Upon booting first time & getting initially set up, enjoyed how nice the screen is. IPS is the way to go, ngl. Keyboard light & RGB options are a major upgrade for my use. Selection of apps & programs from the get go are too numerous to mention, but is nice to have plenty of options. After removing what didn't interest me, proceeded with updates, as you should with any device. "
+    },
+    {
+        "id": "3102",
+        "name": "Brendan Cortez",
+        "ratings": "5.0",
+        "img": "member-2.png",
+        "description": "I am in love, this gaming laptop is one of the best purchases I have ever made, the screen quality is great, it's very fluid, and runs smoothly. As for all gaming laptops, they do tend to get warm so secure yourself a cooling pad and update your drivers. Dragon Center is amazing, MSI really puts out quality work, I highly recommend this product to anyone. Battery life can be adjusted but unplugged and depending on what you're doing you'll have a decent amount of gaming time or if you're doing work, school assignments, etc. Overall this is still a great buy, I definitely need to buy my PC after this."
+    },
+    {
+        "id": "3103",
+        "name": "Cedric Colon",
+        "ratings": "4.0",
+        "img": "member-3.png",
+        "description": "Bought the MSI M15 Stealth and was impressed by the presentation, after booting up the laptop for the first time the screen started flickering, no matter how many restarts, shutdowns, and updating / reinstalling drivers, the problem was still there. I did find a solution however, by full wiping the laptop then removing all MSI programs and features (Bloatware) the flickering stopped. I contacted MSI support and they had no idea what planet they were on, so if you have this issue please follow the steps above to actually fix the issue and don't waste your time with MSI support.  "
+    },
+    {
+        "id": "3104",
+        "name": "Mack Berry",
+        "ratings": "4.5",
+        "img": "member-4.png",
+        "description": " Another surprise, is that you can run android games either through The appropriate MSI app or even Bluestacks... was not aware of when I decided to purchase, but cool nonetheless. I would say remove the MSI App Player & just use true Bluestacks, if you want to mess with Amdroid emulation.With this, I plan on investing in Steam, finally. Not to mention, can't wait to see what this thing can handle, emulation-wise (Can't wait to try Stepmania on this). [Edit/ Update 9/7/21 -Stepmania runs just like arcade Dance Dance Revolution on MAX graphical program settings. Just a little side note, SOME games that have a max refresh rate of 60hz may have graphical issues... I'm specifically mentioning Sonic Adventure & Adcenture 2 for PC being OVERLY FAST. There are workarounds to get said games working perfectly. "
+    },
+    {
+        "id": "3105",
+        "name": "Alfred Wade",
+        "ratings": "5.0",
+        "img": "member-5.png",
+        "description": "Power is heat and lightweight chassis cannot handle it well at all hence wgy bulky laptops are often better.Also a reallll pet peeve of mine with this horrendous model if that the F1-9 keys are swapped so that you need to hold down the FN key to press the F1-9 keys, else you'll hit the MSI configuration buttons over it and they're NOT SWAPPABLE. This is TERRIBLE for games that use F1-9 keybinds because now you'll have to keep your hands on WASD and the mouse while somehow pressing the FN+(F1-9) keys at the same time.Do your research people, gaming laptops nowadays are hidden scams. Rely on honest YouTube reviews and such before you buy else you'll end up like me waiting to get my refund while all the deals on better laptops expire . . . "
+    },
+    {
+        "id": "3106",
+        "name": "Wallace Fleming",
+        "ratings": "4.5",
+        "img": "member-6.png",
+        "description": "The first one that came the battery discharged faster than it charged when running photoshop/lightroom. After initial horrible customer service from MSI (literally had 3 people make fun of me because im not a tech and dont know what their acronyms and things mean), and them telling me my only option is to ship my laptop to their S. Cali seevice center for a min 10-15 day service, i filed for a replacement through Amazon.Later I tried MSI customer service again, and that agent was nicer, and after checking a few things, told me it is definitely a hardware issue and asking for the replacement was the correct thing to do.I got the replacement. Opened it, turned it on, very loud fan rattle. Jumped back on to MSI customer service chat and they said its a hardware issue and to ask for another replacement. "
     }
 ]

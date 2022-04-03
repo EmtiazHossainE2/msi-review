@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css'
 import banner from '../../images/banner.jpg'
+import CustomerReview from '../../components/CustomerReview/CustomerReview';
 const Home = () => {
     return (
         <div className='container'>
@@ -16,6 +17,9 @@ const Home = () => {
                         <img className='w-75 rounded' src={banner} alt="MSI Stealth" />
                     </div>
                 </div>
+            </div>
+            <div className="container mt-5">
+                <CustomerReview></CustomerReview>
             </div>
         </div>
     );
