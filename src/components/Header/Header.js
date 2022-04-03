@@ -13,7 +13,7 @@ const Header = ({ cart }) => {
                     <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end '>
                         <Nav className='nav-style text-uppercase'>
                             <CustomLink className='py-5' to='/'>Home</CustomLink>
-                            <CustomLink className='py-5' to='/review'>Review</CustomLink>
+                            <CustomLink className='py-5' to='/review'>Reviews</CustomLink>
                             <CustomLink className='py-5' to='/blogs'>blogs</CustomLink>
                             <CustomLink className='py-5' to='/about-us'>About Us</CustomLink>
                             <CustomLink className='py-5' to='/dashboard'>DashBoard</CustomLink>

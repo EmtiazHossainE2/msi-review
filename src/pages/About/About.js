@@ -1,11 +1,11 @@
 import React from 'react';
-
+import construction from '../../images/construction.png'
 const About = () => {
     return (
         <div>
-            <h2 className='text-center mt-5'>This is about us page</h2>
-
-
+            <div className='text-center'>
+                <img className='w-75' src={construction} alt="construction" />
+            </div>
         </div>
     );
 };
