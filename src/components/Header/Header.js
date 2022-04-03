@@ -11,12 +11,12 @@ const Header = ({ cart }) => {
                     <Link className='text-light text-decoration-none' to='/'><h3 >Laptop Reviews</h3></Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end '>
-                        <Nav className='nav-style'>
+                        <Nav className='nav-style text-uppercase'>
                             <CustomLink className='py-5' to='/'>Home</CustomLink>
                             <CustomLink className='py-5' to='/review'>Review</CustomLink>
                             <CustomLink className='py-5' to='/dashboard'>DashBoard</CustomLink>
+                            <CustomLink className='py-5' to='/blogs'>blogs</CustomLink>
                             <CustomLink className='py-5' to='/about-us'>About Us</CustomLink>
-                            <CustomLink className='py-5' to='/contact-us'>Contact Us</CustomLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
