@@ -8,15 +8,15 @@ const Header = ({ cart }) => {
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
                 <Container className='py-2'>
-                    <Link className='text-light text-decoration-none' to='/'><h3 >Laptop Reviews</h3></Link>
+                    <Link className='text-light text-decoration-none' to='/'><h3 >Laptop Hunter</h3></Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end '>
                         <Nav className='nav-style text-uppercase'>
                             <CustomLink className='py-5' to='/'>Home</CustomLink>
                             <CustomLink className='py-5' to='/review'>Review</CustomLink>
-                            <CustomLink className='py-5' to='/dashboard'>DashBoard</CustomLink>
                             <CustomLink className='py-5' to='/blogs'>blogs</CustomLink>
                             <CustomLink className='py-5' to='/about-us'>About Us</CustomLink>
+                            <CustomLink className='py-5' to='/dashboard'>DashBoard</CustomLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
