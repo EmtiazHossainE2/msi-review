@@ -1,3 +1,8 @@
 p {
     text-align: justify;
 }
+
+.custom-style {
+    padding: 10px 0;
+    color: red;
+}

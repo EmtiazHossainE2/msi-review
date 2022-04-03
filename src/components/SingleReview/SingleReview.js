@@ -6,10 +6,9 @@ const SingleReview = (props) => {
         <div className='col-lg-4 col-md-6'>
             <div className="cart p-3 m-3 cart-container text-center">
                 <img className='w-25  m-auto  rounded-circle p-1 ' src={img} alt="" />
-                <h4>{name.slice(0, 15)}</h4>
+                <h4 className='py-2'>{name.slice(0, 15)}</h4>
                 <h5>Ratings : {ratings}</h5>
-                <p>{description.slice(0, 370) + "..."}</p>
-                {/* <p>{description.length > 50 ? description.slice(0, 50) + "..." : description} </p> */}
+                <p className='py-2'>{description.slice(0, 370) + "..."}</p>
             </div>
 
         </div>

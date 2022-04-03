@@ -1,7 +1,7 @@
 .cart-container {
     background-color: #f8f9f6fc;
     border-radius: 20px;
-
+    height: 72vh;
     box-shadow: 10px 10px 5px rgb(208, 209, 211) inset;
 }
 
