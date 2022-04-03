@@ -3,7 +3,7 @@ import useReview from '../../hooks/useReview';
 import SingleReview from '../SingleReview/SingleReview';
 
 const CustomerReview = () => {
-    const [reviews, setReviews] = useReview()
+    const [reviews] = useReview()
     return (
         <div>
             <h2 className='text-center my-3'>Customer Review   - {reviews.length}</h2>
