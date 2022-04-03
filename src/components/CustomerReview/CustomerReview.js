@@ -4,12 +4,13 @@ import SingleReview from '../SingleReview/SingleReview';
 
 const CustomerReview = () => {
     const [reviews] = useReview()
+    const homeReview = reviews.slice(0, 3);
     return (
         <div>
-            <h2 className='text-center my-3'>Customer Review   - {reviews.length}</h2>
+            <h2 className='text-center my-3'>Customer Review   - {homeReview.length}</h2>
             <div className="row">
                 {
-                    reviews.map(review => <SingleReview
+                    homeReview.map(review => <SingleReview
                         key={review.id}
                         review={review}
                     ></SingleReview>)
