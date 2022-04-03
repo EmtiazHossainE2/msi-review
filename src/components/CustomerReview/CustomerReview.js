@@ -1,13 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import useReview from '../../hooks/useReview';
 import SingleReview from '../SingleReview/SingleReview';
 
 const CustomerReview = () => {
-    const [reviews, setReviews] = useState([])
-    useEffect(() => {
-        fetch('reviews.json')
-            .then(res => res.json())
-            .then(data => setReviews(data))
-    }, [])
+    const [reviews, setReviews] = useReview()
     return (
         <div>
             <h2 className='text-center my-3'>Customer Review   - {reviews.length}</h2>
