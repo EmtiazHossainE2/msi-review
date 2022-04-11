@@ -1,51 +1,9 @@
 import React from 'react';
 import { Bar, BarChart, CartesianGrid, LabelList, Legend, Tooltip, XAxis, YAxis } from 'recharts';
+import useChart from '../../hooks/useChart';
 
 const MyBarChart = () => {
-    const data = [
-        {
-            "month": "Mar",
-            "investment": 100000,
-            "sell": 240,
-            "revenue": 1040
-        },
-        {
-            "month": "Apr",
-            "investment": 200000,
-            "sell": 420,
-            "revenue": 2450
-        },
-        {
-            "month": "May",
-            "investment": 500000,
-            "sell": 720,
-            "revenue": 6701
-        },
-        {
-            "month": "Jun",
-            "investment": 500000,
-            "sell": 529,
-            "revenue": 4040
-        },
-        {
-            "month": "Jul",
-            "investment": 600000,
-            "sell": 601,
-            "revenue": 5090
-        },
-        {
-            "month": "Aug",
-            "investment": 700000,
-            "sell": 670,
-            "revenue": 6100
-        },
-        {
-            "month": "Sep",
-            "investment": 500000,
-            "sell": 430,
-            "revenue": 5300
-        }
-    ]
+    const [data] = useChart()
     return (
         <BarChart
             width={600}

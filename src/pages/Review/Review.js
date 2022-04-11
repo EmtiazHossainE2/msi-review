@@ -6,7 +6,7 @@ const Review = () => {
     const [reviews] = useReview()
     return (
         <div className='container my-5'>
-            <h2 className='text-center my-3'>Customer Review   - {reviews.length}</h2>
+            <h2 className='text-center my-3'>Customers Review  </h2>
             <div className="row">
                 {
                     reviews.map(review => <SingleReview
