@@ -7,6 +7,7 @@ import SalaryChart from '../../components/SalaryChart/SalaryChart';
 const Dashboard = () => {
     return (
         <div className='container my-5'>
+            <h2 className='text-center my-4'>Chart Practice </h2>
             <div className="row">
                 <div className="col-lg-6  mb-5">
                     <SalaryChart></SalaryChart>
